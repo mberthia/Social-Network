@@ -53,8 +53,9 @@ body {
   background-color: white;
   position: absolute;
   top: 400px;
-  left: 535px;
+  right: -5px;
   border: 5px solid black;
+  margin-top: -5px;
 }
 
 .nav {
@@ -86,4 +87,64 @@ span + span {
   color: black;
   margin-left: 10px;
   font-weight: bold;
+}
+
+.left {
+  background-color: blue;
+  position: relative;
+  height: 300px;
+  width: 328px;
+  top: 125px;
+  left: -5px;
+  border: 5px solid black;
+}
+
+.left p {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about {
+  position: absolute;
+  height: 125px;
+  width: 318px;
+  background-color: white;
+  margin-top: 25px;
+  padding-top: 10px;
+}
+
+.about p {
+  color: black;
+}
+
+.right {
+  background-color: blue;
+  position: absolute;
+  height: 300px;
+  width: 512px;
+  left: 325px;
+  top: 125px;
+  margin-left: 10px;
+  border: 5px solid black;
+}
+
+.profile {
+  height: 85px;
+  width: 85px;
+  border: 5px solid black;
+  margin: 10px;
+}
+
+.right p {
+  color: white;
+  position: absolute;
+  left: 110px;
+  top: 20px;
+  font-size: 10px;
+}
+.right span {
+  font-weight: bold;
+  color: orangered;
+  font-size: 15px;
 }
