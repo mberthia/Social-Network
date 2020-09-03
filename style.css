@@ -130,10 +130,12 @@ span + span {
 }
 
 .profile {
+  position: absolute;
   height: 85px;
   width: 85px;
   border: 5px solid black;
-  margin: 10px;
+  margin: 5px;
+  margin-top: -15px;
 }
 
 .right p {
@@ -141,10 +143,37 @@ span + span {
   position: absolute;
   left: 110px;
   top: 20px;
-  font-size: 10px;
+  font-size: 15px;
 }
 .right span {
   font-weight: bold;
   color: orangered;
   font-size: 15px;
+}
+
+.cover-image {
+  position: absolute;
+  width: 450px;
+  top: 100px;
+  margin-left: 10px;
+}
+
+.time {
+  position: absolute;
+  color: orangered;
+  top: 50px;
+  right: 300px;
+}
+
+.button span {
+  position: relative;
+  border: 2px solid gray;
+  border-radius: 10%;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  margin-left: 10px;
+  font-weight: bold;
+  top: 70px;
+  right: -100px;
 }
